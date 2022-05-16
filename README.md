@@ -1,5 +1,5 @@
 # JavaScript Foundations
-
+//git init test
 Each exercise emphasizes the fundamentals of object oriented programming in JavaScript.
 
 ## Installation Steps
@@ -45,7 +45,7 @@ Completing all of these test suites is not necessary, but you should be working 
 - [ ] 🛹 [Skate Park](./skate-park)
 - [ ] 🍫 [Vending Machine](./vending-machine)
 
-### Other Greats 
+### Other Greats
 - [ ] ⛷ [Ski Lift](./ski-lift)
 - [ ] ⛄️ [Snowman](./do-you-wanna-build-a-snowman)
 - [ ] 🚀 [Spaceport](./spaceport)
