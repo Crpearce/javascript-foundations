@@ -8,8 +8,8 @@ class Unicorn {
       return false;
     }
   }
-  says(message) {
-    return `**;* ${message} *;**`;
+  says(textStatement) {
+    return `**;* ${textStatement} *;**`;
   }
 }
 
