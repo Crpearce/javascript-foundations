@@ -4,7 +4,7 @@ var Victim = require('../exercises/victim');
 
 describe('Werewolf', function() {
 
-  it.skip('should be a function', function() {
+  it('should be a function', function() {
     assert.isFunction(Werewolf);
   });
 
@@ -120,7 +120,7 @@ describe('Werewolf', function() {
 
     werewolf.completeTransformation();
     werewolf.completeTransformation();
-    
+
     var humanWolf = werewolf.eatVictim(victim);
 
     assert.equal(humanWolf, "No way am I eating Baby, I'd like a burger!");
