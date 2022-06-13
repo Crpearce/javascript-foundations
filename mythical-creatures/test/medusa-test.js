@@ -108,7 +108,7 @@ describe('Medusa', function() {
     assert.equal(person.name, 'Pam');
   });
 
-  it('should be relieved when returned to Person form', function () {
+  it('should be relieved when returned to Person form', function() {
     var medusa = new Medusa('Pam');
     var victim1 = new Person('Travis');
     var victim2 = new Person('Kayla');
@@ -128,7 +128,7 @@ describe('Medusa', function() {
 });
 
 describe('Person', function() {
-  it('should be a function', function () {
+  it('should be a function', function() {
     assert.isFunction(Person);
   });
 
@@ -153,18 +153,18 @@ describe('Person', function() {
   });
 });
 
-describe('Statue', function () {
-  it('should be a function', function () {
+describe('Statue', function() {
+  it('should be a function', function() {
     assert.isFunction(Statue);
   });
 
-  it('should instantiate a Statue', function () {
+  it('should instantiate a Statue', function() {
     var statue = new Statue();
 
     assert.instanceOf(statue, Statue);
   });
 
-  it('should have the name of its former self', function () {
+  it('should have the name of its former self', function() {
     var kayla = new Statue('Kayla');
     var hannah = new Statue('Hannah');
 

@@ -9,10 +9,10 @@ class Dragon {
     return `Hi, ${this.rider}!`;
   }
   eat() {
-    this.meals ++
+    this.meals++
     if (this.meals > 2) {
       this.hungry = false
-      }
     }
   }
+}
 module.exports = Dragon;

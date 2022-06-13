@@ -13,8 +13,8 @@ class Hobbit {
       this.adult = true;
     } else if (this.age >= 100) {
       this.old = true;
+    }
   }
-}
 }
 
 module.exports = Hobbit;
